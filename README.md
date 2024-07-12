@@ -1,5 +1,10 @@
 # TMLU Eval
 
+<p align="center">
+🤗 <a href="https://huggingface.co/datasets/miulab/tmlu" target="_blank">Dataset</a>
+• 📃 <a href="https://arxiv.org/pdf/2403.20180" target="_blank">Paper</a>
+</p>
+
 For open source models, we support
 
 * Hugging-Face as backend
@@ -211,4 +216,31 @@ $python3 tmlu_eval.py \
 	--max_tokens 128 \
 	--subsets AST_chinese,AST_mathematics \
 	--log_dir log/gen_based/gemini-pro
+```
+
+
+## Citation
+
+If you use TMLU in your research, please cite the following paper:
+
+# Citation
+```
+@article{DBLP:journals/corr/abs-2403-20180,
+  author       = {Po{-}Heng Chen and
+                  Sijia Cheng and
+                  Wei{-}Lin Chen and
+                  Yen{-}Ting Lin and
+                  Yun{-}Nung Chen},
+  title        = {Measuring Taiwanese Mandarin Language Understanding},
+  journal      = {CoRR},
+  volume       = {abs/2403.20180},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2403.20180},
+  doi          = {10.48550/ARXIV.2403.20180},
+  eprinttype    = {arXiv},
+  eprint       = {2403.20180},
+  timestamp    = {Wed, 10 Apr 2024 17:37:45 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2403-20180.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
