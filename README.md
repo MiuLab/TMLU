@@ -19,6 +19,33 @@ For proprietary models, we support
 * Anthropic API
 * Google API
 
+
+## Environment Setup
+
+To set up the environment for TMLU Eval, follow these steps:
+
+1. Create a new conda environment:
+   ```bash
+   conda create -n tmlu python=3.10 -y
+   ```
+
+2. Activate the environment:
+   ```bash
+   conda activate tmlu
+   ```
+
+3. Install PyTorch with CUDA support:
+   ```bash
+   conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia -y
+   ```
+
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+
 ## Hugging Face
 
 Use the probabilities of the option codes as prediction.
