@@ -136,7 +136,7 @@ $python3 tmlu_eval.py \
 $python3 tmlu_eval.py \
 	--backend custom_api \
 	--model yentinglin/Taiwan-LLM-MoE-alpha \
-	--base_url http://127.0.0.1:8888
+	--base_url http://127.0.0.1:8888/v1
 	--temperature 0.0 \
 	--max_tokens 128 \
 	--subsets AST_chinese,AST_mathematics \
