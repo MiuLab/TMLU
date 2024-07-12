@@ -219,11 +219,10 @@ $python3 tmlu_eval.py \
 ```
 
 
-## Citation
+# Citation
 
 If you use TMLU in your research, please cite the following paper:
 
-# Citation
 ```
 @article{DBLP:journals/corr/abs-2403-20180,
   author       = {Po{-}Heng Chen and
